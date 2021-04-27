@@ -36,6 +36,7 @@ def banner():
     """) 
 
 def ob():
+    os.system("clear")
     ip = input("\n Introduce la IP: ")
     de = int(input("\n ¿Que dox quiere ver? \n 1) Dox basico\n 2) Dox completo\n Respuesta: "))
     if de == 1:
@@ -65,6 +66,7 @@ def ob():
             exit
 
 def yo():
+    os.system("clear")
     ip = get("https://api.ipify.org").text
     print(f"\n Tu IP actual es: ",ip)
     print("")
