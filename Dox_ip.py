@@ -8,6 +8,7 @@ from requests import get
 
 
 def banner():
+    os.system("clear")
     print("""
     
 ██████   ██████  ██   ██     ██ ██████  
