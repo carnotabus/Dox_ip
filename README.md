@@ -3,7 +3,7 @@ Script basico para obtener informacion de alguna ip.
 
 # Instalación
 
-git clone
+git clone https://github.com/Lac0lm3n4/Dox_ip.git
 
 cd Dox_ip
 
